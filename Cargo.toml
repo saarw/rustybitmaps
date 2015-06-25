@@ -1,0 +1,16 @@
+[package]
+
+name = "rustybitmaps"
+version = "0.0.1"
+authors = [ "William Saar <william@saar.se>" ]
+
+[[bin]]
+
+name = "rustybitmaps"
+
+[dependencies]
+log = "0.3.1"
+env_logger = "0.3"
+rustc-serialize = "0.3.14"
+hyper = "0.5.0"
+roaring = "0.3.2"
